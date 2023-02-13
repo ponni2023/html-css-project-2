@@ -1,0 +1,133 @@
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Arial;
+  margin-left: 5px;
+  padding: 10px;
+  color: rgb(198, 191, 191);
+  font-style: italic;
+}
+.content {
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #f5eeef;
+  background: rgb(44, 3, 82);
+  padding: 10px;
+}
+p::first-letter {
+  font: 3em sans-serif;
+}
+a.hover {
+  text-decoration: text-underline-offset;
+}
+a:visited {
+  color: blue;
+  text-decoration-color: blue;
+}
+
+.anav {
+  font-family: serif;
+  font-size: 2em;
+  color: black;
+}
+
+html {
+  background-color: rgb(8, 3, 16);
+}
+
+p {
+  font-family: Arial, Helvettica, sans-serif;
+  line-height: 2em;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 1.2em;
+  color: rgb(198, 191, 191);
+  margin-right: 100px;
+  text-align: justify;
+}
+#center {
+  text-align: center;
+  color: rgb(198, 191, 191);
+}
+
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(194, 194, 199);
+  padding: 10px;
+  font-size: 3em;
+  margin: left;
+}
+h5 {
+  font-size: 120%;
+  text-align: center;
+  color: black;
+}
+.city {
+  font-family: "Times New Roman", Times, serif;
+}
+#navigation {
+  height: 40px;
+  background: #107dcb;
+  border-radius: 10px;
+  border: 1px solid #f5eeef;
+  margin: 5px;
+  padding: 10px 10px;
+}
+.checked {
+  color: orange;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  border-top: 2px solid black;
+  background-color: rgb(105 79 141);
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #f5eeef;
+  padding: 10px;
+}
+#box {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 130px;
+  text-align: left;
+  float: left;
+  display: flex;
+}
+#box1 {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 130px;
+  text-align: justify;
+  float: right;
+}
+
+#footer-nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  background-color: gray;
+}
+ul {
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+  padding-inline-start: unset;
+  list-style-type: disclosure-closed;
+  display: block;
+  text-align: justify;
+}
+.head {
+  background-color: rgb(105 79 141);
+}
+h3 {
+  color: rgb(198, 191, 191);
+}
